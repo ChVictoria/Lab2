@@ -1,0 +1,2 @@
+EXTERN Add_864_LONGOP : proc
+EXTERN Sub_256_LONGOP : proc
