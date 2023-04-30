@@ -3,7 +3,7 @@
 .data
   counter1 dd ?
   counter2 dd ?
-
+  carryflag db 0
 .code
 
 Mul_416X32 proc
@@ -16,7 +16,7 @@ Mul_416X32 proc
 	xor ebp, ebp
 	xor ebx, ebx
 	
-
+	clc
 	cycle:
 	mov eax,  dword ptr[edi + ebp]
 	mul esi
@@ -41,7 +41,7 @@ Mul_448X448 proc
 	
 	mov counter1, 14
 	xor ecx, ecx
-	
+	clc
 
 	@cycle1:
 	xor ebp, ebp

@@ -1,2 +1,2 @@
 EXTERN Mul_416X32 : proc
-EXTERN Mul_416X416 : proc
+EXTERN Mul_448X448 : proc

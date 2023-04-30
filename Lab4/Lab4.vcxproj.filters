@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MASM Include="main4.asm" />
+    <MASM Include="..\modules\module.asm" />
+    <MASM Include="..\Lab3\longop.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="longop.inc" />
+    <None Include="module.inc" />
+  </ItemGroup>
+</Project>
