@@ -55,7 +55,7 @@ jne @fact_cycle
 
 push offset TextBufFact
 push offset factorial
-push 448
+push 400
 call StrDec
 invoke MessageBoxA, 0, ADDR TextBufFact, ADDR CaptionFact,0
 
